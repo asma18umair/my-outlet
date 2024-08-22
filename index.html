@@ -18,17 +18,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-        <select class="form-select" aria-label="Default select example" id="brand" onchange="dresses()"></select>
-        <select class="form-select" aria-label="Default select example" id="cloths"></select>
-        <button class="btn btn-outline-success"  onclick="clearProduct()">clear</button>
-
-        <button class="btn btn-outline-success" onclick= "searchProduct()">Search</button>
+        <select class="form-select" aria-label="Default select example" id="brand" onchange="searchProduct()"></select>
+        <button class="btn btn-outline-success" onclick="clearProduct()">Clear</button>
       </div>
     </div>
   </nav>
   <div id="main" class="gap-3 m-5 flex-wrap myCard"></div>
   <div id="selectedCard"></div>
-<script src="index.js"></script>
+  <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
