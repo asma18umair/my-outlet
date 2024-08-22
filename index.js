@@ -1,7 +1,7 @@
 var clothesShop = {
   khaadi: {
      karachi: {
-          img: "khadi red.webp",
+          img: [ "khadi red.webp", "khaadi.1.jpg","khaadi.2.jpg","khaadi.3.jpg"],
           fabric: "lawn",
           color: "red",
           price: "Rs 4000",
